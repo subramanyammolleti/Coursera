@@ -20,12 +20,12 @@ body {
 }
 
 
-.menuItem{
-	text-align: center;
+.collapse {
 	background-color: #ddece7;
 }
+
 .br-bottom{
 border-bottom: 1px solid black;
 }
-/** HEADER **/
+
 
