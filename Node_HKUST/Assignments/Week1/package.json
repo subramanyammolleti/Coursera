@@ -1,0 +1,24 @@
+{
+  "name": "hkust-weekone-assignment",
+  "version": "1.0.0",
+  "description": "HKUST Node Week1 Assignment",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "HKUST",
+    "Coursera",
+    "NodeJS",
+    "Front-End"
+  ],
+  "author": "Subramanyam Molleti",
+  "license": "ISC"
+}
