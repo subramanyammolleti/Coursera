@@ -1,0 +1,27 @@
+{
+  "name": "hkust-nodejs-exercises",
+  "version": "1.0.0",
+  "description": "All HKUST NodeJS Exercises ",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "hkust",
+    "mongodb",
+    "mongoose",
+    "mongo",
+    "express"
+  ],
+  "author": "Subramanyam Molleti",
+  "license": "ISC"
+}
