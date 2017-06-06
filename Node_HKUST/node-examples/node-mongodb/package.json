@@ -1,0 +1,15 @@
+{
+  "name": "node-mongodb",
+  "version": "1.0.0",
+  "description": "Node and MongoDB Basics",
+  "main": "simpleserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "MongoDB"
+  ],
+  "author": "Subramanyam Molleti",
+  "license": "ISC"
+}
