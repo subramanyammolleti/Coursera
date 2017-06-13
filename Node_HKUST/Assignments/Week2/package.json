@@ -1,0 +1,22 @@
+{
+  "name": "hkust-weektwo-assignment",
+  "version": "1.0.0",
+  "description": "HKUST NodeJS week2 Assignment",
+  "main": "dishes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Week2",
+    "HKUST",
+    "Assignment"
+  ],
+  "author": "Subramanyam Molleti",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mongoose": "^4.10.6",
+    "mongoose-currency": "^0.2.0"
+  }
+}
