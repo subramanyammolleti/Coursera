@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/dishes', users);
+app.use('/dishes', dishRouter);
 app.use('/leadership', leaderRouter);
 app.use('/promotions', promoRouter);
 

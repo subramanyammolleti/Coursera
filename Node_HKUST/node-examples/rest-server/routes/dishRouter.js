@@ -18,7 +18,7 @@ dishRouter.route('/')
 
 	});
 
-});
+})
 
 .post(function(req, res, next){
 
@@ -32,7 +32,7 @@ dishRouter.route('/')
 			'Content-type': 'text/plain'
 		});
 
-		res.end('Added the dish with id: ',id);
+		res.end('Added the dish with id: '+id);
 
 	});
 
@@ -67,13 +67,14 @@ dishRouter.route('/:dishId')
         new: true
     }, function (err, dish) {
         if (err) throw err;
-        res.json(dish);
+        res.json(dish); 
     });
 })
 
 .delete(function(req, res, next){
 
-	 Dishes.findByIdAndRemove(req.params.dishId, function (err, resp) {        if (err) throw err;
+	 Dishes.findByIdAndRemove(req.params.dishId, function (err, resp) {        
+        if (err) throw err;
         res.json(resp);
     });
 
