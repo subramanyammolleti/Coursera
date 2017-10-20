@@ -1,7 +1,11 @@
 var express = require('express'); 
 var morgan = require('morgan');
 var session = require('express-session');
+
 var FileStore = require('session-file-store')(session);
+
+var FileStore = require('session-file-store')(session);
+
 
 var hostname = 'localhost';
 var port = 3000;
